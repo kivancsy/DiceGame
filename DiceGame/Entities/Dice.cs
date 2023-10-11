@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DiceGame.Dice
+{
+    public class PlayerDice
+    {
+        public int Dice { get; set; }
+    }
+
+    public class WizardDice:PlayerDice
+    {
+
+    }
+}
